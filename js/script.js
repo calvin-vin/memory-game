@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+$(document).ready(function(){
 
 	// card options
 	const cardArray = [
@@ -131,5 +131,6 @@ function flipCard() {
 		setTimeout(checkForMatches, 500);
 	}
 }
+
 
 });
