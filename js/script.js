@@ -49,7 +49,31 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			name : 'zero',
 			images : 'img/zero.png'
-		}
+		},
+		{
+			name : 'sepen',
+			images : 'img/sepen.png'
+		}, 
+		{
+			name : 'sepen',
+			images : 'img/sepen.png'
+		},
+		{
+			name : 'umi',
+			images : 'img/umi.png'
+		}, 
+		{
+			name : 'umi',
+			images : 'img/umi.png'
+		},
+		{
+			name : 'abi',
+			images : 'img/abi.png'
+		}, 
+		{
+			name : 'abi',
+			images : 'img/abi.png'
+		},
 	];
 
 cardArray.sort(() => 0.5 - Math.random());	
